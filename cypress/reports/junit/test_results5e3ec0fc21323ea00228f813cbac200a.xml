@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="32.845" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-09-09T10:42:48" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Add to basket" timestamp="2022-09-09T10:42:48" tests="2" failures="1" time="32.845">
+    <testcase name="Add to basket Add Product to Basket (example #1)" time="0" classname="Add Product to Basket (example #1)">
+      <failure message="Timed out retrying: Expected to find element: &apos;input[name=&apos;Large&apos;]&apos;, but never found it. Queried from element: [ &lt;label.t-h4.tab-nav-item&gt;, 8 more... ]" type="CypressError"><![CDATA[CypressError: Timed out retrying: Expected to find element: 'input[name='Large']', but never found it. Queried from element: [ <label.t-h4.tab-nav-item>, 8 more... ]
+    at Object.cypressErr (https://www.rapha.cc/__cypress/runner/cypress_runner.js:83220:11)
+    at Object.throwErr (https://www.rapha.cc/__cypress/runner/cypress_runner.js:83185:18)
+    at Object.throwErrByPath (https://www.rapha.cc/__cypress/runner/cypress_runner.js:83212:17)
+    at retry (https://www.rapha.cc/__cypress/runner/cypress_runner.js:76640:16)
+    at https://www.rapha.cc/__cypress/runner/cypress_runner.js:68612:18
+    at tryCatcher (https://www.rapha.cc/__cypress/runner/cypress_runner.js:132142:23)
+    at Promise._settlePromiseFromHandler (https://www.rapha.cc/__cypress/runner/cypress_runner.js:130160:31)
+    at Promise._settlePromise (https://www.rapha.cc/__cypress/runner/cypress_runner.js:130217:18)
+    at Promise._settlePromise0 (https://www.rapha.cc/__cypress/runner/cypress_runner.js:130262:10)
+    at Promise._settlePromises (https://www.rapha.cc/__cypress/runner/cypress_runner.js:130337:18)
+    at Async._drainQueue (https://www.rapha.cc/__cypress/runner/cypress_runner.js:127066:16)
+    at Async._drainQueues (https://www.rapha.cc/__cypress/runner/cypress_runner.js:127076:10)
+    at Async.drainQueues (https://www.rapha.cc/__cypress/runner/cypress_runner.js:126950:14)]]></failure>
+    </testcase>
+    <testcase name="Add to basket Add Product to Basket (example #2)" time="32.845" classname="Add Product to Basket (example #2)">
+    </testcase>
+  </testsuite>
+</testsuites>

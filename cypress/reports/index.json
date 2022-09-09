@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-09-09T10:42:48.125Z",
+    "end": "2022-09-09T10:43:58.663Z",
+    "duration": 70538,
+    "testsRegistered": 2,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "passPercentClass": "danger",
+    "pendingPercentClass": "danger"
+  },
+  "results": [
+    {
+      "uuid": "df3fd865-d8fc-4629-9511-bc54c88a94f4",
+      "title": "",
+      "fullFile": "/Users/admin/Documents/projects/Rapha cypress/cypress/integration/AddToBasket.feature",
+      "file": "AddToBasket.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0db3ae5e-44ec-4b8e-88a9-ee045733d2ae",
+          "title": "Add to basket",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Add Product to Basket (example #1)",
+              "fullTitle": "Add to basket Add Product to Basket (example #1)",
+              "timedOut": null,
+              "duration": 36723,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "[{\"title\":\"(failed)\",\"value\":\"screenshots/AddToBasket.feature/Add to basket -- Add Product to Basket (example #1) (failed).png\"}]",
+              "code": "Given that I am a Rapha Customer\nWhen I navigate to <product_page>\nAnd I select <size> from Size picker\nAnd I select <colour> from colour picker\nAnd I click \"add to basket\" button\nThen I click go to basket button\nThen product with <size> and <colour> displays in basket\n",
+              "err": {
+                "message": "CypressError: Timed out retrying: Expected to find element: 'input[name='Large']', but never found it. Queried from element: [ <label.t-h4.tab-nav-item>, 8 more... ]",
+                "estack": "CypressError: Timed out retrying: Expected to find element: 'input[name='Large']', but never found it. Queried from element: [ <label.t-h4.tab-nav-item>, 8 more... ]\n    at Object.cypressErr (https://www.rapha.cc/__cypress/runner/cypress_runner.js:83220:11)\n    at Object.throwErr (https://www.rapha.cc/__cypress/runner/cypress_runner.js:83185:18)\n    at Object.throwErrByPath (https://www.rapha.cc/__cypress/runner/cypress_runner.js:83212:17)\n    at retry (https://www.rapha.cc/__cypress/runner/cypress_runner.js:76640:16)\n    at https://www.rapha.cc/__cypress/runner/cypress_runner.js:68612:18\n    at tryCatcher (https://www.rapha.cc/__cypress/runner/cypress_runner.js:132142:23)\n    at Promise._settlePromiseFromHandler (https://www.rapha.cc/__cypress/runner/cypress_runner.js:130160:31)\n    at Promise._settlePromise (https://www.rapha.cc/__cypress/runner/cypress_runner.js:130217:18)\n    at Promise._settlePromise0 (https://www.rapha.cc/__cypress/runner/cypress_runner.js:130262:10)\n    at Promise._settlePromises (https://www.rapha.cc/__cypress/runner/cypress_runner.js:130337:18)\n    at Async._drainQueue (https://www.rapha.cc/__cypress/runner/cypress_runner.js:127066:16)\n    at Async._drainQueues (https://www.rapha.cc/__cypress/runner/cypress_runner.js:127076:10)\n    at Async.drainQueues (https://www.rapha.cc/__cypress/runner/cypress_runner.js:126950:14)",
+                "diff": null
+              },
+              "uuid": "6a5ab563-cf63-4b46-926e-059c55592c49",
+              "parentUUID": "0db3ae5e-44ec-4b8e-88a9-ee045733d2ae",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Add Product to Basket (example #2)",
+              "fullTitle": "Add to basket Add Product to Basket (example #2)",
+              "timedOut": null,
+              "duration": 32845,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "[]",
+              "code": "Given that I am a Rapha Customer\nWhen I navigate to <product_page>\nAnd I select <size> from Size picker\nAnd I select <colour> from colour picker\nAnd I click \"add to basket\" button\nThen I click go to basket button\nThen product with <size> and <colour> displays in basket\n",
+              "err": {},
+              "uuid": "27c62804-8bf2-467a-a426-6d525adf63be",
+              "parentUUID": "0db3ae5e-44ec-4b8e-88a9-ee045733d2ae",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "27c62804-8bf2-467a-a426-6d525adf63be"
+          ],
+          "failures": [
+            "6a5ab563-cf63-4b46-926e-059c55592c49"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 69568,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "copyrightYear": 2022
+}
